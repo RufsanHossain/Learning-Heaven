@@ -1,15 +1,5 @@
-@media only screen and (max-width: 880px){
-
-  .explore-us {
-    padding-bottom: 5%;
-  } 
-
-
-}
-  
-
-
 /* MEDIA QUERIES MAIN HEADER */
+
 @media (min-width: 768px) {
     .main-header-menu {
         display: flex;
@@ -20,9 +10,4 @@
     .main-header-dropdown-button {
         display: none;
     }
-
-
 }
-
-
-
