@@ -1,6 +1,6 @@
 /* MEDIA QUERIES MAIN HEADER */
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .main-header-menu {
         display: flex;
     }
@@ -10,4 +10,18 @@
     .main-header-dropdown-button {
         display: none;
     }
+}
+@media (max-width: 768px) {
+	.speech {
+		display: inline-block;
+	}
+}
+@media (max-width: 325px) {
+.card , .course {
+	min-width: 15rem;
+}
+
+video {
+	width: 220px;
+}
 }

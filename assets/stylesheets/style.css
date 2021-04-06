@@ -455,7 +455,7 @@ main {
 
 .course {
     position: relative;
-    min-width: 25rem;
+    min-width: 20rem;
     max-width: 35rem;
     height: 240px;
     margin: 0 1rem 2rem 1rem;
@@ -533,6 +533,11 @@ main {
     padding: 3rem 1rem;
     text-align: center;
     font-size: 1.2rem;
+
+}
+.teacher-words,
+.creator-words {
+    margin: 0 2rem;
 }
 
 
@@ -570,9 +575,9 @@ body {
 
 .card {
     float: left;
-    min-width: 25rem;
+    min-width: 20rem;
     max-width: 35rem;
-    margin: 0 1rem 2rem 1rem;
+    margin: 0 1rem 2rem 3rem;
 }
 
 .card-one,
